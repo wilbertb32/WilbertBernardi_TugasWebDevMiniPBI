@@ -50,3 +50,39 @@ h2 {
     color: #fff;
     border-radius: 4px;
 }
+
+.project {
+  margin: 8px 0;
+}
+
+#showMoreBtn, #showLessBtn {
+  margin-top: 12px;
+  padding: 6px 16px;
+  font-size: 16px;
+}
+
+.paragraph{
+  text-align: justify;
+}
+
+button{
+  background-color: #596fff;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+button:hover {
+  background-color: #97a4ffda;
+}
+
+a:hover{
+  color: #79aff5;
+  text-decoration: underline;
+}

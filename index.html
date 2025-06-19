@@ -22,20 +22,53 @@
     <br>
     <div class="container" id="about">
         <h2>Tentang Saya</h2>
-        <p>Saya adalah seorang web developer yang bisa membuat suatu website secara interaktif bagi antarmuka pengguna.
+        <p class="paragraph">Saya adalah seorang web developer yang bisa membuat suatu website secara interaktif bagi antarmuka pengguna.
             Selama kuliah saya telah belajar berbagai bahasa pemrograman seperti HTML, CSS, dan JavaScript serta belajar menggunakan framework seperti ReactJS.
+            Saya juga tertarik untuk belajar lebih lanjut tentang backend pengembangan web seperti PHP, MySQL, dan framework Laravel.
+            Kedepannya, saya ingin mempelajari cara membuat aplikasi mobile menggunakan framework seperti React Native atau flutter serta juga mempelajari android studio untuk membuat aplikasi android.
         </p>
     </div>
     <div class="container" id="projects">
-    <h2>Project:</h2>
-        <div class="card">
-            <h3>Hidgems Indo</h3>
-            <p>Hidgems Indo adalah sebuah website berisi tentang rekomendasi wisata Indonesia yang belum terjamah atau populer di kalangan wisatawan dalam dan luar negeri.</p>
-        </div>
+        <h2>Project</h2>
+        <ul>
+            <div class="project">
+                <li>
+                    <h3>Hidgems Indo</h3>
+                    <p class="paragraph">Hidgems Indo adalah sebuah website berisi tentang rekomendasi wisata Indonesia yang belum terjamah atau populer di kalangan wisatawan dalam dan luar negeri.</p>
+                    <p>Teknologi yang dipakai: HTML, CSS, Javascript, ReactJS</p>
+                    <p>Github: <a href="https://github.com/wilbertb32/HidGemsIndo">HidGemsIndo</a></p>
+                </li>
+            </div>
+            
+            <div class="project extra" style="display:none;">
+                <li>
+                    <h3>Website Sekolah Cendrawasih</h3>
+                    <p class="paragraph">Website sekolah Cendrawasih adalah sebuah website sekolah yang digunakan untuk berbagai keperluan, termasuk untuk mengelola data donatur, penerima manfaat, dan kegiatan.
+                        Pengembangan ini meliputi penambahan fitur-fitur baru, perbaikan bug, peningkatan keamanan, serta UI (user interface) yang lebih modern dan mudah untuk para pengguna.
+                    </p>
+                    <p>Teknologi yang dipakai: PHP, Laravel</p>
+                    <p>Github: <a href="https://github.com/AdliGR/Project_UAS_Cendrawasih">Sekolah Cendrawasih</a></p>
+                </li>
+            </div>
+            
+            <div class="project extra" style="display:none;">
+                <li>
+                    <h3>WilFlix</h3>
+                    <p class="paragraph">WilFlix adalah sebuah hybrid aplikasi seluler yang digunakan untuk menonton acara TV, film, anime, dokumenter, dan berbagai hiburan lainnya di ribuan perangkat yang terhubung ke internet. 
+                        Aplikasi ini tersedia di berbagai perangkat, termasuk smartphone, tablet, smart TV, laptop, dan konsol game.
+                    </p>
+                    <p>Teknologi yang dipakai: React Native</p>
+                    <p>Github: <a href="https://github.com/wilbertb32/69185_WilbertBernardi_IF670_AL_WilFlix-NetFlixClone">WilFlix</a></p>
+                </li>
+            </div>
+        </ul>
+        <button id="showMoreBtn" onclick="showMore()">Show More</button>
+        <button id="showLessBtn" onclick="showLess()" style="display:none;">Show Less</button>
     </div>
+    <script src="script.js"></script>
     <div class="container" id="contact">
         <h2>Kontak</h2>
-        <p>Jika Anda ingin menghubungi saya, silakan kirim email ke <a href="mailto:wilbertbernardi2004@gmail.com">wilbertbernardi2004@gmail.com</a> atau melalui telepon ke nomor <a href="tel:+6285261577958">+62 852-6157-7958</a>.</p>
+        <p class="paragraph">Jika Anda ingin menghubungi saya, silakan kirim email ke <a href="mailto:wilbertbernardi2004@gmail.com">wilbertbernardi2004@gmail.com</a> atau melalui telepon ke nomor <a href="tel:+6285261577958">+62 852-6157-7958</a>.</p>
     </div>
 </body>
 </html>
